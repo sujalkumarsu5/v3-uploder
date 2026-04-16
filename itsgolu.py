@@ -556,7 +556,7 @@ async def send_vid(bot: Client, m: Message, cc, filename, thumb, name, prog, cha
                 raise Exception(f"Upload failed at part {idx + 1}: {str(e)}")
 
             # ✅ Final messages
-            if len(parts) <blockquote>1:</blockquote>
+            if len(parts) > 1:
                 await m.reply_text("✅ Large video successfully uploaded in multiple parts!")
 
             # Cleanup after split
