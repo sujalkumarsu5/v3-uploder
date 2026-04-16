@@ -456,8 +456,8 @@ async def send_vid(bot: Client, m: Message, cc, filename, thumb, name, prog, cha
 
         await prog.delete(True)  # ⏳ Remove previous progress message
 
-        reply1 = await bot.send_message(channel_id, f" **Uploading Video:**\n> {name}", **_thread_kw)
-        reply = await m.reply_text(f"🖼 **Generating Thumbnail:**\n> {name}")
+        reply1 = await bot.send_message(channel_id, f" **Uploading Video:**\n<blockquote>{name}", **_thread_kw)</blockquote>
+        reply = await m.reply_text(f"🖼 **Generating Thumbnail:**\n<blockquote>{name}")</blockquote>
 
         file_size_mb = os.path.getsize(filename) / (1024 * 1024)
         notify_split = None
@@ -556,7 +556,7 @@ async def send_vid(bot: Client, m: Message, cc, filename, thumb, name, prog, cha
                 raise Exception(f"Upload failed at part {idx + 1}: {str(e)}")
 
             # ✅ Final messages
-            if len(parts) > 1:
+            if len(parts) <blockquote>1:</blockquote>
                 await m.reply_text("✅ Large video successfully uploaded in multiple parts!")
 
             # Cleanup after split
