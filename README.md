@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.ibb.co/jkqd1bcz/1776322344273.png" alt="ITsGOLU">
+  <img src="https://i.ibb.co/0y1kdmgK/1776322344273.png" alt="ITsGOLU">
 </p>
 <h1 align="center">
   <a href="https://github.com/ITsGOLU-OFFICIAL/ITsGOLU_UPLOADER_FAST-V2">
