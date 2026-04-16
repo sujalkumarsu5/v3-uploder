@@ -1,5 +1,5 @@
 # ═══════════════════════════════════════════════════════════════
-#  ITsGOLU UPLOADER — Production Dockerfile
+#  🦚Rᴀᴅʜᴀ♡︎Kʀɪsʜɴᴀ༗🌹 UPLOADER — Production Dockerfile
 #  Compatible: Heroku, Render, Koyeb
 # ═══════════════════════════════════════════════════════════════
 

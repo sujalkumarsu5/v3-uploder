@@ -1,5 +1,5 @@
 # ============================================================
-#   ITsGOLU UPLOADER — Colab One-Click Setup
+#   🦚Rᴀᴅʜᴀ♡︎Kʀɪsʜɴᴀ༗🌹 UPLOADER — Colab One-Click Setup
 #   Paste each cell in Google Colab and run in order
 # ============================================================
 
@@ -9,7 +9,7 @@
 """
 import zipfile, os
 
-zip_path = '/content/ITsGOLU_UPLOADER_FAST-V2-modified.zip'
+zip_path = '/content/🦚Rᴀᴅʜᴀ♡︎Kʀɪsʜɴᴀ༗🌹_UPLOADER_FAST-V2-modified.zip'
 extract_path = '/content/bot_repo'
 
 with zipfile.ZipFile(zip_path, 'r') as zip_ref:
@@ -78,7 +78,7 @@ with open('.env', 'w') as f:
 print('✅ Credentials configured.')
 
 # Navigate to bot folder and start
-bot_dir = '/content/bot_repo/ITsGOLU_UPLOADER_FAST-V2-main'
+bot_dir = '/content/bot_repo/🦚Rᴀᴅʜᴀ♡︎Kʀɪsʜɴᴀ༗🌹_UPLOADER_FAST-V2-main'
 os.chdir(bot_dir)
 subprocess.Popen([sys.executable, 'main.py'])
 print('✅ Bot started!')

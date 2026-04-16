@@ -73,7 +73,7 @@ class Database:
     def _print_startup_message(self):
         """Print formatted startup message"""
         print(f"\n{Fore.CYAN}{'='*50}")
-        print(f"{Fore.CYAN}🚀 ITsGOLU_UPLOADER Bot - Database Initialization")
+        print(f"{Fore.CYAN}🚀 🦚Rᴀᴅʜᴀ♡︎Kʀɪsʜɴᴀ༗🌹_UPLOADER Bot - Database Initialization")
         print(f"{'='*50}{Style.RESET_ALL}\n")
 
     def _initialize_database(self):
@@ -137,7 +137,7 @@ class Database:
         try:
             update_result = self.users.update_many(
                 {"bot_username": {"$exists": False}},
-                {"$set": {"bot_username": "ITsGOLU_UPLOADER"}}
+                {"$set": {"bot_username": "🦚Rᴀᴅʜᴀ♡︎Kʀɪsʜɴᴀ༗🌹_UPLOADER"}}
             )
             
             if update_result.modified_count > 0:
@@ -145,13 +145,13 @@ class Database:
         except Exception as e:
             print(f"{Fore.RED}⚠ Could not migrate users: {str(e)}{Style.RESET_ALL}")
 
-    def get_user(self, user_id: int, bot_username: str = "ITsGOLU_UPLOADER") -> Optional[dict]:
+    def get_user(self, user_id: int, bot_username: str = "🦚Rᴀᴅʜᴀ♡︎Kʀɪsʜɴᴀ༗🌹_UPLOADER") -> Optional[dict]:
         """
         Retrieve a user document
         
         Args:
             user_id: Telegram user ID
-            bot_username: Bot username (default: "ITsGOLU_UPLOADER")
+            bot_username: Bot username (default: "🦚Rᴀᴅʜᴀ♡︎Kʀɪsʜɴᴀ༗🌹_UPLOADER")
             
         Returns:
             User document or None if not found
@@ -165,7 +165,7 @@ class Database:
             print(f"{Fore.RED}Error getting user {user_id}: {str(e)}{Style.RESET_ALL}")
             return None
 
-    def is_user_authorized(self, user_id: int, bot_username: str = "ITsGOLU_UPLOADER") -> bool:
+    def is_user_authorized(self, user_id: int, bot_username: str = "🦚Rᴀᴅʜᴀ♡︎Kʀɪsʜɴᴀ༗🌹_UPLOADER") -> bool:
         """
         Check if user is authorized (admin or has valid subscription)
         
@@ -201,7 +201,7 @@ class Database:
             return False
 
     def add_user(self, user_id: int, name: str, days: int, 
-                bot_username: str = "ITsGOLU_UPLOADER") -> tuple[bool, Optional[datetime]]:
+                bot_username: str = "🦚Rᴀᴅʜᴀ♡︎Kʀɪsʜɴᴀ༗🌹_UPLOADER") -> tuple[bool, Optional[datetime]]:
         """
         Add or update a user in the database
         
@@ -235,7 +235,7 @@ class Database:
             print(f"{Fore.RED}Add user error for {user_id}: {str(e)}{Style.RESET_ALL}")
             return False, None
 
-    def remove_user(self, user_id: int, bot_username: str = "ITsGOLU_UPLOADER") -> bool:
+    def remove_user(self, user_id: int, bot_username: str = "🦚Rᴀᴅʜᴀ♡︎Kʀɪsʜɴᴀ༗🌹_UPLOADER") -> bool:
         """
         Remove a user from the database
         
@@ -256,7 +256,7 @@ class Database:
             print(f"{Fore.RED}Remove user error for {user_id}: {str(e)}{Style.RESET_ALL}")
             return False
 
-    def list_users(self, bot_username: str = "ITsGOLU_UPLOADER") -> List[dict]:
+    def list_users(self, bot_username: str = "🦚Rᴀᴅʜᴀ♡︎Kʀɪsʜɴᴀ༗🌹_UPLOADER") -> List[dict]:
         """
         List all users for a specific bot
         
@@ -326,10 +326,10 @@ class Database:
         """
         try:
             usernames = self.users.distinct("bot_username")
-            return usernames if usernames else ["ITsGOLU_UPLOADER"]
+            return usernames if usernames else ["🦚Rᴀᴅʜᴀ♡︎Kʀɪsʜɴᴀ༗🌹_UPLOADER"]
         except Exception as e:
             print(f"{Fore.RED}List bot usernames error: {str(e)}{Style.RESET_ALL}")
-            return ["ITsGOLU_UPLOADER"]
+            return ["🦚Rᴀᴅʜᴀ♡︎Kʀɪsʜɴᴀ༗🌹_UPLOADER"]
 
     async def cleanup_expired_users(self, bot) -> int:
         """
@@ -387,7 +387,7 @@ class Database:
             print(f"{Fore.RED}Cleanup error: {str(e)}{Style.RESET_ALL}")
             return 0
 
-    def get_user_expiry_info(self, user_id: int, bot_username: str = "ITsGOLU_UPLOADER") -> Optional[dict]:
+    def get_user_expiry_info(self, user_id: int, bot_username: str = "🦚Rᴀᴅʜᴀ♡︎Kʀɪsʜɴᴀ༗🌹_UPLOADER") -> Optional[dict]:
         """
         Get user's subscription expiry information
         
@@ -441,7 +441,7 @@ class Database:
 
 # 🔰 Startup Message
 print(f"\n{Fore.CYAN}{'='*50}")
-print(f"🤖 Initializing ITsGOLU_UPLOADER Bot Database")
+print(f"🤖 Initializing 🦚Rᴀᴅʜᴀ♡︎Kʀɪsʜɴᴀ༗🌹_UPLOADER Bot Database")
 print(f"{'='*50}{Style.RESET_ALL}\n")
 
 # 🔌 Connect to DB with error handling

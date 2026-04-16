@@ -1,9 +1,9 @@
 {
-  "name": "ITsGOLU-UPLOADER",
+  "name": "🦚Rᴀᴅʜᴀ♡︎Kʀɪsʜɴᴀ༗🌹-UPLOADER",
   "description": "Telegram Video Extractor & Uploader Bot",
   "logo": "https://files.catbox.moe/8e2qqw.jpg",
   "keywords": ["telegram", "bot", "video", "pyrogram"],
-  "repository": "https://github.com/ITsGOLU/ITsGOLU-UPLOADER",
+  "repository": "https://github.com/🦚Rᴀᴅʜᴀ♡︎Kʀɪsʜɴᴀ༗🌹/🦚Rᴀᴅʜᴀ♡︎Kʀɪsʜɴᴀ༗🌹-UPLOADER",
   "success_url": "/",
   "stack": "container",
   "env": {
@@ -29,12 +29,12 @@
     },
     "DATABASE_NAME": {
       "description": "MongoDB database name",
-      "value": "ITsGOLU_db",
+      "value": "🦚Rᴀᴅʜᴀ♡︎Kʀɪsʜɴᴀ༗🌹_db",
       "required": false
     },
     "CREDIT": {
       "description": "Credit name shown in captions (6-8 letters)",
-      "value": "ITsGOLU",
+      "value": "🦚Rᴀᴅʜᴀ♡︎Kʀɪsʜɴᴀ༗🌹",
       "required": false
     },
     "ADMINS": {

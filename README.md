@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://i.ibb.co/0y1kdmgK/1776322344273.png" alt="ITsGOLU">
+  <img src="https://i.ibb.co/0y1kdmgK/1776322344273.png" alt="🦚Rᴀᴅʜᴀ♡︎Kʀɪsʜɴᴀ༗🌹">
 </p>
 <h1 align="center">
-  <a href="https://github.com/ITsGOLU-OFFICIAL/ITsGOLU_UPLOADER_FAST-V2">
+  <a href="https://github.com/🦚Rᴀᴅʜᴀ♡︎Kʀɪsʜɴᴀ༗🌹-OFFICIAL/🦚Rᴀᴅʜᴀ♡︎Kʀɪsʜɴᴀ༗🌹_UPLOADER_FAST-V2">
 </h1>
 <br>
 <details>
@@ -45,13 +45,13 @@ Go to https://uptimerobot.com/ and add a monitor to keep your bot alive.
 Use these settings when adding a monitor:</b>
 <br>
 <br>
-<img src="https://ibb.co/m5HCqdzN" alt="render template">
+<img src="https://i.ibb.co/0y1kdmgK/1776322344273.png" alt="render template">
 <br>
 <br>
 <b>Click on the below button to deploy directly to render ↓</b>
 <br>
 <br>
-<a href="https://render.com/deploy?repo=https://github.com/VAiDH1661/ITsGOLU_UPLOADER">
+<a href="https://render.com/deploy?repo=https://github.com/VAiDH1661/🦚Rᴀᴅʜᴀ♡︎Kʀɪsʜɴᴀ༗🌹_UPLOADER">
 <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
 </a>
 </details>

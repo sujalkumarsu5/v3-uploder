@@ -20,7 +20,7 @@ ADMINS = [int(x) for x in _admins_env.split() if x.strip().isdigit()] if _admins
 
 # ─── MongoDB ──────────────────────────────────────────────────
 DATABASE_URL  = os.environ.get("DATABASE_URL", "")
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "ITsGOLU_db")
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "🦚Rᴀᴅʜᴀ♡︎Kʀɪsʜɴᴀ༗🌹_db")
 MONGO_URL     = DATABASE_URL  # alias used by db.py
 
 # ─── Bot Config ───────────────────────────────────────────────
