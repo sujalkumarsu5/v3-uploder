@@ -456,8 +456,8 @@ async def send_vid(bot: Client, m: Message, cc, filename, thumb, name, prog, cha
 
         await prog.delete(True)  # ⏳ Remove previous progress message
 
-        reply1 = await bot.send_message(channel_id, f" **Uploading Video:**\n<blockquote>{name}</blockquote>", **_thread_kw)
-        reply = await m.reply_text(f"🖼 **Generating Thumbnail:**\n<blockquote>{name}</blockquote>")
+        reply1 = await bot.send_message(channel_id, f" **Uploading Video:**\n> {name}", **_thread_kw)
+        reply = await m.reply_text(f"🖼 **Generating Thumbnail:**\n> {name}")
 
         file_size_mb = os.path.getsize(filename) / (1024 * 1024)
         notify_split = None
